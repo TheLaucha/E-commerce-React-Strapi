@@ -20,6 +20,7 @@
 Your users should be able to:
 
 •Browse the web, see different categories of products, filter by price, type of product and order by price, add products to the cart, and see it.
+
 •Responsive website.
 
 ## My process
