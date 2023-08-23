@@ -1,0 +1,123 @@
+.Product {
+  display: flex;
+  gap: 2rem;
+}
+
+.Product .left {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+}
+
+.Product .left .images {
+  flex: 1;
+}
+
+.Product .left .images img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.Product .left .mainImage {
+  flex: 5;
+}
+
+.Product .left .mainImage img {
+  width: 100%;
+  max-height: 800px;
+  object-fit: cover;
+}
+
+.Product .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.Product .right .title {
+}
+
+.Product .right .price {
+  color: var(--violet);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.Product .right .description {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.Product .right .quantityBox {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  gap: 1rem;
+}
+
+.Product .right .quantityBox button {
+  padding: 0.4rem 1rem;
+  border: none;
+  background-color: rgb(189, 189, 189);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.Product .right .quantityBox button:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+.Product .right .addBtn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: var(--violet);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.Product .right .addBtn:hover {
+  background-color: var(--purple);
+}
+
+.Product .right .icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.Product .right .icons button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  color: var(--violet);
+  cursor: pointer;
+}
+
+.Product .right .info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: rgb(129, 129, 129);
+  font-size: 0.8rem;
+  margin: 2rem 0;
+}
+
+.Product .right .info hr {
+  width: 200px;
+  border: 1px solid rgb(218, 218, 218);
+}
+
+hr {
+  border: 1px solid rgb(218, 218, 218);
+}

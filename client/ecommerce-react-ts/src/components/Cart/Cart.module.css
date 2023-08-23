@@ -1,0 +1,87 @@
+.Cart {
+  min-width: 300px;
+  max-width: 600px;
+  padding: 1rem;
+  z-index: 999;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0px 0px 7px -5px #0000007e;
+}
+
+.Cart h2 {
+  color: grey;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.Cart .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.Cart .item img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.Cart .item .details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.Cart .item .details h3 {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.Cart .item .details p {
+  color: gray;
+  font-size: 1rem;
+}
+
+.Cart .item .details span {
+  color: var(--violet);
+}
+
+.Cart .item .deleteIcon {
+  color: brown;
+  cursor: pointer;
+}
+
+.Cart .total {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Cart .checkoutBtn {
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: var(--violet);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.Cart .checkoutBtn:hover {
+  background-color: var(--purple);
+}
+
+.Cart .resetBtn {
+  color: brown;
+  font-size: 0.8rem;
+  cursor: pointer;
+}

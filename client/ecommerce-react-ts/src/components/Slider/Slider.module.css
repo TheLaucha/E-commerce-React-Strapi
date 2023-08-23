@@ -1,0 +1,66 @@
+.slider {
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.slider .container {
+  display: flex;
+  margin: 0 auto;
+  width: 90vw;
+  height: 100%;
+}
+
+.slider .container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider .icons {
+  position: absolute;
+  display: flex;
+  bottom: 5%;
+  left: 50%;
+  gap: 1rem;
+  width: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.slider .icons .iconContainer {
+  cursor: pointer;
+}
+
+.slider .icons .icon {
+  font-size: 3rem;
+  color: var(--violet);
+  border-radius: 100%;
+  transition: all 0.2s;
+}
+
+.slider .icons .icon:hover {
+  transform: scale(1.1);
+  color: var(--purple);
+}
+
+@media all and (max-width: 1280px) {
+}
+
+@media all and (max-width: 1024px) {
+}
+
+@media all and (max-width: 768px) {
+  .slider {
+    height: 80vh;
+    width: 100%;
+  }
+  .slider .container {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 480px) {
+}

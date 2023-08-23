@@ -1,0 +1,69 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.Card .imgContainer {
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.Card .imgContainer .newSeason {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: khaki;
+  z-index: 5;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.Card .imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.Card .imgContainer .firstImage {
+  z-index: 1;
+}
+
+.Card .imgContainer:hover > .secondImage {
+  z-index: 2;
+}
+
+.Card h6 {
+  font-size: 1rem;
+}
+
+.Card .prevPrice {
+  text-decoration: line-through;
+  color: darkgrey;
+  margin-right: 0.5rem;
+}
+
+.Card .title {
+  color: red;
+}
+
+@media all and (max-width: 1280px) {
+}
+
+@media all and (max-width: 1024px) {
+}
+
+@media all and (max-width: 768px) {
+  .Card .imgContainer {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media all and (max-width: 480px) {
+}

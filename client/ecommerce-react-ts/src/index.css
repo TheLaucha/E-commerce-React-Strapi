@@ -1,0 +1,14 @@
+:root {
+  --purple: #632f49;
+  --maroon: #753849;
+  --grey: #f9e1d2;
+  --white: #fcf0e9;
+  --lightblue: #9cd0f2;
+  --violet: #484163;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
