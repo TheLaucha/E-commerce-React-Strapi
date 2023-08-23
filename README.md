@@ -1,13 +1,5 @@
 # E-commerce-React-Strapi
 
-### - Made with
-### - React (Vite) with Typescript.
-### - Redux for the cart. 
-### - Stripe for the API products. 
-### - Css modules for the styles.
-
-# E-commerce-React-Strapi
-
 ![Design preview](./assets/preview1.png)
 ![Design preview](./assets/preview2.png)
 ![Design preview](./assets/preview3.png)
@@ -19,6 +11,7 @@
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
+- [How to use](#how-to-use)
 
 ## Overview
 
@@ -42,3 +35,10 @@ Your users should be able to:
 ## Author
 
 - Website - [Lautaro Espinillo](https://thelaucha.github.io/lautaro_espinillo_portfolio/)
+
+## How to use
+- Download repo
+- Into api folder, do npm install
+- Then run this command -> npm run develop (you need to configure mysql)
+- Into client/ecommerce-react-ts folder, do npm install
+- Then run this command -> npm run dev
